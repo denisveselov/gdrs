@@ -2,13 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Гидросервис</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
-    <link href="slick/slick/slick-theme.css" rel="stylesheet">
+
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/245779fd0b.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -20,7 +21,8 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="slogan"><h2 class="gidr">ГИДР</h2></div>
-            <div class="navbar-brand"><a href="#" ><img class="logotype" src="garanti.png" width="120" height="90" alt="logo"></a></div>
+            <div class="navbar-brand"><a href="#"><img class="logotype" src="img/garanti.png" width="120" height="90"
+                                                       alt="logo"></a></div>
             <div class="slogan"><h2 class="serv">СЕРВИС</h2></div>
         </div>
         <div class="navbar-collapse collapse">
@@ -78,14 +80,36 @@
         </div>
     </div>
 </div>
-<a name="slider"></a>
-<div class="slider"
-     data-transition="crossfade">
-    <div class="itm"><img src="03.jpg" width="1460" height="605"></div>
-    <div class="itm"><img src="04.jpg" width="1460" height="605"></div>
-    <div class="itm"><img src="05.jpg" width="1460" height="605"></div>
 
+
+<!-------SLIDER--------->
+<div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="img/car001.png"/>
+            </li>
+
+            <li>
+                <img src="img/car002.png"/>
+            </li>
+
+            <li>
+                <img src="img/car003.png"/>
+            </li>
+        </ul>
+    </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('.flexslider').flexslider({
+            animation: 'fade',
+            controlsContainer: '.flexslider'
+        });
+    });
+</script>
+
 
 <div id="footer">
     <div class="container">
@@ -99,10 +123,8 @@
     </div>
 </div>
 
-
+<script src="js/jquery.flexslider-min.js" defer></script>
 <script src="bootstrap/js/jquery-3.2.1.min.js" type="text/javascript" defer></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript" defer></script>
-<script src="slider.js" type="text/javascript" defer></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" defer></script>
 </body>
 </html>

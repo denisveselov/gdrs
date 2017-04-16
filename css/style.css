@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-body{
+body {
     width: 100%;
     background-color: #c7c7c7;
     font-family: Lato;
@@ -13,26 +13,27 @@ body{
     margin-top: 70px;
 }
 
-h1 h2 h3 h4 h5 h6{
+h1 h2 h3 h4 h5 h6 {
     font-family: Raleway;
     font-weight: 300;
     color: whitesmoke;
 }
 
-p{
+p {
     line-height: 28px;
     margin-bottom: 25px;
 }
 
-.centered{
+.centered {
     text-align: center;
 }
 
-a{
-    color:whitesmoke;
+a {
+    color: whitesmoke;
 }
-a:hover a:focus{
-    color:#7b7b7b;
+
+a:hover a:focus {
+    color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
@@ -40,50 +41,50 @@ a:hover a:focus{
 /*---------------Header---------------*/
 /*---------------Navbar---------------*/
 
-
-
-hr{
+hr {
     display: block;
     height: 1px;
-    border:0;
+    border: 0;
     border-top: 1px solid #c333;
     margin: 1em 0;
     padding: 0;
 }
 
-.navbar{
+.navbar {
     font-weight: 800;
     font-size: 18px;
     padding: 15px 0 15px 0;
 }
 
-.navbar-inverse{
+.navbar-inverse {
     background: #DE0A0A;
     border-color: #DE0A0A;
 }
-.navbar-inverse .navbar-nav >.active > a{
+
+.navbar-inverse .navbar-nav > .active > a {
     background-color: #DE0A0A;
     text-align: center;
     padding-top: 25px;
 }
-.navbar-inverse .navbar-nav >.active > a:hover{
+
+.navbar-inverse .navbar-nav > .active > a:hover {
     color: whitesmoke;
     border-bottom: 4px solid whitesmoke;
     background: #DE0A0A;
 
-
-
 }
-.navbar-inverse .navbar-nav >.active > a:focus{
+
+.navbar-inverse .navbar-nav > .active > a:focus {
     background: #DE0A0A;
     color: whitesmoke;
 
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 0;
 }
-.logotype{
+
+.logotype {
     margin-top: 5px;
     padding-top: 0;
     padding-bottom: 10px;
@@ -92,10 +93,12 @@ hr{
     display: block;
 
 }
-.slogan{
-    float:left;
+
+.slogan {
+    float: left;
 }
-.gidr{
+
+.gidr {
     margin-top: 7px;
     padding-top: 5px;
     margin-left: 15px;
@@ -118,8 +121,8 @@ hr{
 
 /*---------------End Navbar---------------*/
 
-#headwrap{
-    background: url("bgrnd01.png") no-repeat center top;
+#headwrap {
+    background: url("../img/bgrnd01.png") no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -131,12 +134,12 @@ hr{
     -webkit-background-size: cover;
 }
 
-.txt_hr{
+.txt_hr {
     padding-top: 120px;
 
 }
 
-.rgba{
+.rgba {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     font-family: Oswald;
@@ -144,22 +147,21 @@ hr{
 
 /*---------------End Next Game--------------*/
 
-.signbtn{
+.signbtn {
     /* background-color: #353535;
      z-index: 2*/
     margin-top: 30px;
 }
 
-
-.signin{
+.signin {
     position: relative;
     margin-bottom: -5px;
 }
-.signup{
+
+.signup {
     margin-bottom: 30px;
     margin-top: -5px;
 }
-
 
 a.animated-button:link, a.animated-button:visited {
     position: relative;
@@ -167,7 +169,7 @@ a.animated-button:link, a.animated-button:visited {
     margin: 30px auto 0;
     padding: 14px 15px;
     color: #fff;
-    font-size:14px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -181,6 +183,7 @@ a.animated-button:link, a.animated-button:visited {
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+
 a.animated-button:link:after, a.animated-button:visited:after {
     content: "";
     position: absolute;
@@ -194,20 +197,23 @@ a.animated-button:link:after, a.animated-button:visited:after {
     -o-transition: all 0.75s ease 0s;
     transition: all 0.75s ease 0s;
 }
+
 a.animated-button:link:hover, a.animated-button:visited:hover {
     color: #FFF;
     text-shadow: none;
 }
+
 .btn, a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
     height: 450%;
 }
+
 a.animated-button:link, a.animated-button:visited {
     position: relative;
     display: block;
     margin: 30px auto 0;
     padding: 14px 15px;
     color: #fff;
-    font-size:14px;
+    font-size: 14px;
     border-radius: 0;
     font-weight: bold;
     text-align: center;
@@ -227,80 +233,77 @@ a.animated-button.victoria-four {
     border: 2px solid #D24D57;
 
 }
+
 a.animated-button.victoria-four:after {
-    background:#D24D57;
+    background: #D24D57;
     opacity: .5;
     -moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
     -ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
     -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
     transform: translateY(-50%) translateX(-50%) rotate(90deg);
 }
+
 a.animated-button.victoria-four:hover:after {
     opacity: 1;
     height: 600% !important;
 }
 
-
 /*---------------End Buttons Block--------*/
 
-.w_w{
+.w_w {
     display: inline-block;
     background-color: #919191;
     width: 100%;
 }
 
-.w_w{
+.w_w {
     color: whitesmoke;
     font-family: Raleway;
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.why_we{
+
+.why_we {
     font-family: Oswald;
 }
 
-.charity>i{
+.charity > i {
     color: #750707;
 }
 
-.charity>h4{
+.charity > h4 {
     color: #750707;
 }
 
-.charity>p{
+.charity > p {
     font-size: 16px;
     color: whitesmoke;
     font-family: Lato;
 }
 
-
-
-
-
-
-
-
-.content_bar{
+.content_bar {
     margin-top: 20px;
     background-color: #353535;
     font-size: 16px;
     float: left;
 
 }
-.slider{
+
+.slider {
     overflow: hidden;
-    height: 500px;
+    height: 540px;
+    width: 1440px;
 
 }
 
 /*----------- Footer --------------*/
 
-
-#footer{
+#footer {
     background-color: #DE0A0A;
     padding-top: 30px;
     padding-bottom: 20px;
 }
-i:hover{
+
+i:hover {
     color: #750707;
 }
