@@ -186,6 +186,9 @@ hr {
     float: left;
 
 }
+.numb{
+   color: #750707;
+}
 
 .slider {
     overflow: hidden;
@@ -204,4 +207,22 @@ hr {
 
 i:hover {
     color: #750707;
+
 }
+
+i:focus {
+    color: #750707;
+}
+
+.fot_ic{
+    color: whitesmoke;
+    text-align: center;
+}
+.copy{
+    padding-top: 50px;
+    text-align: center;
+    color: #750707;
+    clear: both;
+    font-family: Lato;
+}
+
